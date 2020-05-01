@@ -1,4 +1,8 @@
-###Problems 
+Dependent: SquareRequest
+
+Dependency: DrawSquare
+
+Problems 
 
 1. Tightly Coupled
 2. Breaks Single Responsibility principle
