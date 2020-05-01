@@ -2,7 +2,7 @@ package bad;
 
 public class SquareRequest {
 
-    DrawSqaure d = new DrawSqaure();
+    DrawSquare d = new DrawSquare();
 
     public void makeRequest() {
         d.draw();
