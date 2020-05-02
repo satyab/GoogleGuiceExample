@@ -1,4 +1,4 @@
-package googlejuicewithconstants;
+package googleguicenamedannotations;
 
 public interface DrawShape {
 

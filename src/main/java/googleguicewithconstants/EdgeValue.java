@@ -1,4 +1,4 @@
-package googlejuicewithconstants;
+package googleguicewithconstants;
 
 import com.google.inject.BindingAnnotation;
 import java.lang.annotation.ElementType;

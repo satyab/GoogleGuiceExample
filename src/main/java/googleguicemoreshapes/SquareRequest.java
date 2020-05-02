@@ -1,4 +1,4 @@
-package googlejuicewithconstants;
+package googleguicemoreshapes;
 
 import com.google.inject.Inject;
 
@@ -7,7 +7,7 @@ public class SquareRequest {
     private DrawShape d;
 
     @Inject
-    public SquareRequest(DrawShape d) {
+    public SquareRequest(@Square DrawShape d) {
         this.d = d;
     }
 
