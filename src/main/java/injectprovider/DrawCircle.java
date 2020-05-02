@@ -1,7 +1,6 @@
 package injectprovider;
 
 import com.google.inject.Inject;
-import providerswithcomplexobjects.DrawShape;
 
 public class DrawCircle implements DrawShape {
 

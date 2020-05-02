@@ -1,7 +1,6 @@
 package injectprovider;
 
 import com.google.inject.Inject;
-import providerswithcomplexobjects.DrawShape;
 
 public class DrawSquare implements DrawShape {
 
@@ -15,7 +14,8 @@ public class DrawSquare implements DrawShape {
         this.edge = edge;
 
         t = new Thread(
-            () -> System.out.println("Drawing Square " + "color: " + this.color + " edge: " + this.edge));
+            () -> System.out
+                .println("Drawing Square " + "color: " + this.color + " edge: " + this.edge));
     }
 
     public void draw() {
